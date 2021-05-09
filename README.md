@@ -38,9 +38,9 @@ Running
 -------
 The software can be run by typing the following command in a terminal:
 
-./main -f TABLATURE_FILENAME
+`./main -f TABLATURE_FILENAME`
 
-where TABLATURE_FILENAME denotes the filename of the tablature (several examples are provided in the "data" directory"). Please add the `--help' flag to get more information about available options.
+where TABLATURE_FILENAME denotes the filename of the tablature (several examples are provided in the "data" directory"). Please add the `--help` flag to get more information about available options.
 
 Documentation
 -------------
