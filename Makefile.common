@@ -1,0 +1,7 @@
+# Global variables
+PROJECT_NAME = Smacky
+VERSION      = 1.6.0
+DESCRIPTION  = Music emulator on speakers
+AUTHORS      = Nicolas Lermé (nicolas.lerme@free.fr)
+LICENSE      = LGPL-v3
+LAST_RELEASE = `date`

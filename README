@@ -1,0 +1,65 @@
++----------------------------------------------------------------------------------+
+|                                                                                  |
+| README                                                                           |
+|                                                                                  |
++----------------------------------------------------------------------------------+
+
+
+Presentation
+------------
+Smoggle is a cross platform C++ program for playing music on traditional speakers. 
+The main objective of Smoggle is to provide basic features for writing music scores 
+and emulating them on a speaker. All scores are described in a simple XML file like 
+the following:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<score tempo="150" name="My music score">
+  <block loops="2">
+    <block>
+      <note value="C,4" />
+      <note value="D,4" />
+      <note value="E,4" />
+      <note value="F,4" />
+      <note value="G,4" />
+      <note value="A,4" />
+      <note value="B,4" />
+    </block>
+    <pause duration="3.0" />
+    <block>
+      <note value="B,5" />
+      <note value="A,5" />
+      <note value="G,5" />
+      <note value="F,5" />
+      <note value="E,5" />
+      <note value="D,5" />
+      <note value="C,5" />
+    </block>
+    <pause duration="3.0" />
+  </block>
+</score>
+
+The syntax is relatively intuitive for beginners. This file format was almost chosen 
+to ease the reading/writing of music scores for musicians and the sharing between 
+users. However, adding support for other file formats is straightforward.Finally, 
+many famous songs are provided with the software. Feel free to send me your wishlist 
+for adding features ;) 
+
+Compiling
+---------
+Go into the root directory and type 'make'.
+
+Execution
+---------
+Run the program by typing:
+
+./main -f TABLATURE_FILENAME
+
+Add the `--help' flag to get more information on options. Notice that multiple 
+score are already provided in the `data' directory.
+
+Documentation
+-------------
+For any extra information, please consult the documentation available in the `doc' 
+directory in LaTeX / HTML format. You can generate it by typing:
+
+make doc

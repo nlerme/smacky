@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<score tempo="150" name="My music score">
+  <block loops="2">
+    <block>
+      <note value="C,4" />
+      <note value="D,4" />
+      <note value="E,4" />
+      <note value="F,4" />
+      <note value="G,4" />
+      <note value="A,4" />
+      <note value="B,4" />
+    </block>
+
+    <pause duration="3.0" />
+
+    <block>
+      <note value="B,5" />
+      <note value="A,5" />
+      <note value="G,5" />
+      <note value="F,5" />
+      <note value="E,5" />
+      <note value="D,5" />
+      <note value="C,5" />
+    </block>
+
+    <pause duration="3.0" />
+  </block>
+</score>

@@ -1,0 +1,97 @@
+../.obj/application.o: application.cpp ../include/argstream.h ../include/parser.h \
+  ../include/score.h ../include/types.h ../include/block.h \
+  ../include/smart_ptr.h ../include/entity.h ../include/impulse.h \
+  ../include/note.h ../include/score.h ../include/smart_ptr.h \
+  ../include/parser_factory.h ../include/parser.h ../include/parser_xml.h \
+  /usr/include/libxml2/libxml/parser.h \
+  /usr/include/libxml2/libxml/xmlversion.h \
+  /usr/include/libxml2/libxml/xmlexports.h \
+  /usr/include/libxml2/libxml/tree.h \
+  /usr/include/libxml2/libxml/xmlstring.h \
+  /usr/include/libxml2/libxml/xmlregexp.h \
+  /usr/include/libxml2/libxml/dict.h /usr/include/libxml2/libxml/hash.h \
+  /usr/include/libxml2/libxml/valid.h \
+  /usr/include/libxml2/libxml/xmlerror.h \
+  /usr/include/libxml2/libxml/list.h \
+  /usr/include/libxml2/libxml/xmlautomata.h \
+  /usr/include/libxml2/libxml/entities.h \
+  /usr/include/libxml2/libxml/encoding.h \
+  /usr/include/libxml2/libxml/xmlIO.h \
+  /usr/include/libxml2/libxml/globals.h /usr/include/libxml2/libxml/SAX.h \
+  /usr/include/libxml2/libxml/xlink.h /usr/include/libxml2/libxml/SAX2.h \
+  /usr/include/libxml2/libxml/xmlmemory.h \
+  /usr/include/libxml2/libxml/threads.h ../include/file.h \
+  ../include/config.h ../include/singleton.h ../include/singleton_base.h \
+  ../include/singleton_manager.h ../include/application.h
+../.obj/block.o: block.cpp ../include/exceptions.h ../include/types.h \
+  ../include/block.h ../include/smart_ptr.h ../include/entity.h \
+  ../include/impulse.h
+../.obj/entity.o: entity.cpp ../include/entity.h ../include/smart_ptr.h
+../.obj/exceptions.o: exceptions.cpp ../include/exceptions.h ../include/types.h
+../.obj/file.o: file.cpp ../include/file.h ../include/types.h
+../.obj/impulse.o: impulse.cpp ../include/impulse.h ../include/entity.h \
+  ../include/smart_ptr.h ../include/types.h
+../.obj/main.o: main.cpp ../include/smacky.h ../include/application.h \
+  ../include/singleton.h ../include/singleton_base.h \
+  ../include/singleton_manager.h ../include/types.h ../include/block.h \
+  ../include/smart_ptr.h ../include/entity.h ../include/impulse.h \
+  ../include/config.h ../include/exceptions.h ../include/file.h \
+  ../include/note.h ../include/parser_factory.h ../include/parser.h \
+  ../include/score.h ../include/parser_xml.h \
+  /usr/include/libxml2/libxml/parser.h \
+  /usr/include/libxml2/libxml/xmlversion.h \
+  /usr/include/libxml2/libxml/xmlexports.h \
+  /usr/include/libxml2/libxml/tree.h \
+  /usr/include/libxml2/libxml/xmlstring.h \
+  /usr/include/libxml2/libxml/xmlregexp.h \
+  /usr/include/libxml2/libxml/dict.h /usr/include/libxml2/libxml/hash.h \
+  /usr/include/libxml2/libxml/valid.h \
+  /usr/include/libxml2/libxml/xmlerror.h \
+  /usr/include/libxml2/libxml/list.h \
+  /usr/include/libxml2/libxml/xmlautomata.h \
+  /usr/include/libxml2/libxml/entities.h \
+  /usr/include/libxml2/libxml/encoding.h \
+  /usr/include/libxml2/libxml/xmlIO.h \
+  /usr/include/libxml2/libxml/globals.h /usr/include/libxml2/libxml/SAX.h \
+  /usr/include/libxml2/libxml/xlink.h /usr/include/libxml2/libxml/SAX2.h \
+  /usr/include/libxml2/libxml/xmlmemory.h \
+  /usr/include/libxml2/libxml/threads.h ../include/pause.h \
+  ../include/tokenizer.h ../include/utils.h
+../.obj/note.o: note.cpp ../include/config.h ../include/singleton.h \
+  ../include/singleton_base.h ../include/singleton_manager.h \
+  ../include/types.h ../include/utils.h ../include/smart_ptr.h \
+  ../include/note.h ../include/impulse.h ../include/entity.h
+../.obj/parser.o: parser.cpp ../include/parser.h ../include/score.h \
+  ../include/types.h ../include/block.h ../include/smart_ptr.h \
+  ../include/entity.h ../include/impulse.h ../include/note.h
+../.obj/parser_xml.o: parser_xml.cpp ../include/note.h ../include/smart_ptr.h \
+  ../include/impulse.h ../include/entity.h ../include/types.h \
+  ../include/pause.h ../include/utils.h ../include/tokenizer.h \
+  ../include/parser_xml.h /usr/include/libxml2/libxml/parser.h \
+  /usr/include/libxml2/libxml/xmlversion.h \
+  /usr/include/libxml2/libxml/xmlexports.h \
+  /usr/include/libxml2/libxml/tree.h \
+  /usr/include/libxml2/libxml/xmlstring.h \
+  /usr/include/libxml2/libxml/xmlregexp.h \
+  /usr/include/libxml2/libxml/dict.h /usr/include/libxml2/libxml/hash.h \
+  /usr/include/libxml2/libxml/valid.h \
+  /usr/include/libxml2/libxml/xmlerror.h \
+  /usr/include/libxml2/libxml/list.h \
+  /usr/include/libxml2/libxml/xmlautomata.h \
+  /usr/include/libxml2/libxml/entities.h \
+  /usr/include/libxml2/libxml/encoding.h \
+  /usr/include/libxml2/libxml/xmlIO.h \
+  /usr/include/libxml2/libxml/globals.h /usr/include/libxml2/libxml/SAX.h \
+  /usr/include/libxml2/libxml/xlink.h /usr/include/libxml2/libxml/SAX2.h \
+  /usr/include/libxml2/libxml/xmlmemory.h \
+  /usr/include/libxml2/libxml/threads.h ../include/score.h \
+  ../include/block.h ../include/parser.h ../include/note.h
+../.obj/pause.o: pause.cpp ../include/utils.h ../include/smart_ptr.h \
+  ../include/types.h ../include/config.h ../include/singleton.h \
+  ../include/singleton_base.h ../include/singleton_manager.h \
+  ../include/pause.h ../include/impulse.h ../include/entity.h
+../.obj/score.o: score.cpp ../include/exceptions.h ../include/types.h \
+  ../include/config.h ../include/singleton.h ../include/singleton_base.h \
+  ../include/singleton_manager.h ../include/score.h ../include/block.h \
+  ../include/smart_ptr.h ../include/entity.h ../include/impulse.h
+../.obj/tokenizer.o: tokenizer.cpp ../include/tokenizer.h
