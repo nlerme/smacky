@@ -42,7 +42,7 @@ void CApplication::Run( int argc, char ** argv )
 	argstream As(argc, argv);
 	As >> parameter('f', "file", FileName, "Path to the score")
 	   >> option('v', "verbose", CConfig::Instance()->Verbose, "Activate verbose mode")
-	   >> help();
+	   >> help('h', "help", "Display this help");
 	As.defaultErrorHandling();
 
 	CSmartPtr<IParser> Parser(CParserFactory::Create(FileName));
