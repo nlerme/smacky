@@ -37,7 +37,7 @@ template <typename T> std::string ToString( const T & Value )
 template <typename T> bool FromString( const std::string & String, T & Destination )
 {
 	std::istringstream Iss(String);
-	return Iss >> Destination != 0;
+	return bool(Iss >> Destination) != 0;
 }
 
 // Swap between two variables
