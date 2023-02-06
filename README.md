@@ -35,8 +35,8 @@ Requirements
 * The [libxml](http://www.xmlsoft.org/) library for loading and saving tablatures in XML format.
 * The `beep` package is also required to be installed under Linux platform.
 
-Compiling
----------
+Compilation
+-----------
 Go into the root directory and just type `make` in a terminal. 
 
 Execution
