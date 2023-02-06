@@ -1,4 +1,5 @@
-# Variables
+#--- Variables --------------------------------------------------------------------------------------------
+TARGET    = main
 CXX       = g++
 CXXFLAGS  = -O3 -Wall -g
 LDFLAGS   = -L/usr/lib -L./lib
@@ -8,9 +9,8 @@ OBJ_DIR   = obj
 FILES_EXT = cpp
 SRC       = $(wildcard *.$(FILES_EXT))
 OBJ       = $(SRC:%.$(FILES_EXT)=$(OBJ_DIR)/%.o)
-TARGET    = main
 
-# Rules
+#--- Rules ------------------------------------------------------------------------------------------------
 all: depend $(OBJ) $(TARGET)
 
 depend:
@@ -27,7 +27,7 @@ endif
 $(OBJ_DIR)/%.o: %.$(FILES_EXT)
 	@echo -n "+ Compiling $(notdir $@) : "
 	@$(CXX) $(CXXFLAGS) $(LDFLAGS) $(INC_DIR) -c $< -o $@
-	@echo "Ok"
+	@echo "OK"
 
 $(TARGET): $(OBJ)
 	@echo -n "+ Compiling $@ : "

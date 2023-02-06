@@ -1,6 +1,6 @@
 Presentation
 ------------
-Smoggle is a cross-platform C++ software for emulating tablatures on internal speaker and distributed under LGPL license. It requires the [libxml](http://www.xmlsoft.org/) library for loading and saving tablatures in XML format. The `beep` package is also required to be installed under Linux platform. An example of tablature using this file format is given below:
+Smoggle is a cross-platform C++ software for emulating tablatures on internal speaker and distributed under LGPL license. An example of tablature using this file format is given below:
 
 <?xml version="1.0" encoding="UTF-8"?>
 <score tempo="150" name="My music score">
@@ -29,6 +29,11 @@ Smoggle is a cross-platform C++ software for emulating tablatures on internal sp
 </score>
 
 The tag names are chosen to be relatively short, intuitive and memorable for unexperienced users but also to ease their sharing. Only this file format is currently supported but conversion to or from other file formats remains not difficult.
+
+Requirements
+------------
+* The [libxml](http://www.xmlsoft.org/) library for loading and saving tablatures in XML format.
+* The `beep` package is also required to be installed under Linux platform.
 
 Compiling
 ---------

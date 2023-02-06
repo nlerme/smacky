@@ -1,4 +1,4 @@
-# Global variables
+#--- Variables --------------------------------------------------------------------------------------------
 PROJECT_NAME = Smacky
 VERSION      = 1.6.0
 DESCRIPTION  = Music emulator on speakers
