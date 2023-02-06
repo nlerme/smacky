@@ -39,8 +39,8 @@ Compiling
 ---------
 Go into the root directory and just type `make` in a terminal. 
 
-Running
--------
+Execution
+---------
 The software can be run by typing the following command in a terminal:
 
 `./main -f TABLATURE_FILENAME`
