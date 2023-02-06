@@ -1,7 +1,7 @@
 #--- Variables --------------------------------------------------------------------------------------------
-PROJECT_NAME = Smacky
-VERSION      = 1.6.0
-DESCRIPTION  = Music emulator on speakers
-AUTHORS      = Nicolas Lermé
-LICENSE      = LGPL-v3
-LAST_RELEASE = `date`
+PROJECT_NAME         = Smacky
+PROJECT_VERSION      = 1.6.0
+PROJECT_DESCRIPTION  = Music emulator on speakers
+PROJECT_AUTHORS      = Nicolas Lermé
+PROJECT_LICENSE      = LGPL-v3
+PROJECT_LAST_RELEASE = `date`

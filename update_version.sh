@@ -28,7 +28,7 @@ function update()
 [ $# -ne 1 ] && usage
 
 # We update current version in `Makefile.common'
-update "Makefile.common" "VERSION" $1
+update "Makefile.common" "PROJECT_VERSION" $1
 update "doc/doc.doxygen" "PROJECT_NUMBER" $1
 
 exit 0

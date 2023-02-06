@@ -10,11 +10,11 @@ all: header compile footer
 header:
 	@echo "---------------------------------------------------------------------------------------------"
 	@echo "Project name : $(PROJECT_NAME)"
-	@echo "Description  : $(DESCRIPTION)"
-	@echo "License      : $(LICENSE)"
-	@echo "Version      : $(VERSION)"
-	@echo "Authors      : $(AUTHORS)"
-	@echo "Last release : $(LAST_RELEASE)"
+	@echo "Description  : $(PROJECT_DESCRIPTION)"
+	@echo "License      : $(PROJECT_LICENSE)"
+	@echo "Version      : $(PROJECT_VERSION)"
+	@echo "Authors      : $(PROJECT_AUTHORS)"
+	@echo "Last release : $(PROJECT_LAST_RELEASE)"
 	@echo -e "---------------------------------------------------------------------------------------------\n"
 
 compile:
